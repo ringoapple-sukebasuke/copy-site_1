@@ -1,3 +1,216 @@
-.okada {
-  color: red;
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  color: #5A5A5A;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-grey {
+  background-color: #F0F0F0;
+}
+
+@media only screen and (max-width: 795px) {
+  .only_pc {
+    display: none;
+  }
+  .only_sp {
+    display: block;
+  }
+}
+@media only screen and (min-width: 796px) {
+  .only_pc {
+    display: block;
+  }
+  .only_sp {
+    display: none;
+  }
+}
+header {
+  max-width: 1008px;
+  margin: 0 auto;
+}
+header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 40px;
+  background-color: #f8f8f8;
+}
+header .header-container .header-logo {
+  height: 30px;
+  width: auto;
+}
+header .header-container .header-logo a img {
+  width: 100%;
+  height: auto;
+}
+header .header-container .header-lists {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+.product-container .product-lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-container .product-lists .product-list {
+  padding: 5px;
+  max-width: 140px;
+}
+.product-show {
+  text-align: center;
+  display: block;
+}
+.product-show a {
+  background-color: #fac83c;
+  border-radius: 30px;
+  padding: 7px 20px;
+  width: 100px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.youtube-container h3 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+}
+.youtube-container iframe {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.product-introduction {
+  background-color: #FAC83C;
+}
+.product-introduction h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: normal;
+}
+.product-introduction h2 span {
+  font-size: 1rem;
+}
+.product-introduction .lineup-images {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-introduction .lineup-images .lineup-image.right-side {
+  order: 3;
+  width: 27%;
+}
+.product-introduction .lineup-images .lineup-image.left-side {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+}
+.product-introduction .lineup-images .lineup-image.left-side img {
+  width: 56px;
+  margin-bottom: 10px;
+}
+.product-introduction .lineup-images .lineup-image.middle-side {
+  order: 2;
+  width: 33%;
+}
+.product-introduction p {
+  font-size: 0.75rem;
+}
+
+.concept h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 30px auto;
+}
+.concept h2:before, .concept h2:after {
+  content: "";
+  width: 80px;
+  height: 1px;
+  border-top: 1px dashed #5A5A5A;
+  display: block;
+  margin: 10px auto;
+}
+.concept h3 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+.concept h3 span {
+  font-size: 0.75rem;
+  display: block;
+}
+.concept img {
+  width: 100%;
+}
+.concept .attention {
+  font-size: 0.75rem;
+}
+.concept .divider_img {
+  width: 3%;
+  margin: 0 auto;
+  display: block;
+}
+
+.illustration h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 30px auto;
+}
+.illustration h2:before, .illustration h2:after {
+  content: "";
+  width: 80px;
+  height: 1px;
+  border-top: 1px dashed #5A5A5A;
+  display: block;
+  margin: 10px auto;
+}
+.illustration .combination-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.illustration .combination-lists .combination-list {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.illustration .combination-lists .combination-list .combination-title {
+  color: #FF6478;
+  font-size: 1.25rem;
+  margin: 10px auto 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.illustration .combination-lists .combination-list img {
+  width: 100%;
+}
+.illustration .combination-lists .combination-list .nutrients {
+  text-align: center;
+}
+.illustration .combination-lists .combination-list .nutrients span {
+  line-height: 35px;
+  border-radius: 24px;
+  padding: 0 10px;
+  text-align: center;
+  border: 1px solid #5a5a5a;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 35px;
 }/*# sourceMappingURL=style.css.map */
